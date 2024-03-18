@@ -1,0 +1,2 @@
+from .functions import average, power, sum # açıklama: aynı dosya icindeyse fonksiyonların oldıgu filellar bu sekilde cagırıyoruz
+from .greet import SayHello   # __init__.py'ye bunları tanımlamamızın nedeni shell icinde yaptıklarımızı daha kısa olarak yapabilecegiz.
